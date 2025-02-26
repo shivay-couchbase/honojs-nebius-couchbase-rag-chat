@@ -1,4 +1,4 @@
-# ![Nebius AI + Hono + Couchbase + Cloudflare Example]
+# Nebius AI + Hono + Couchbase + Cloudflare Example
 
 # Star Wars Planet Guide: RAG with Nebius AI, Hono, Couchbase and Cloudflare Pages
 
