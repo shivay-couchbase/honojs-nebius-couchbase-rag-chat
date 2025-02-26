@@ -109,7 +109,8 @@ npm run dev
 
 Then open [http://localhost:5173/](http://localhost:5173/) in your browser.
 
-![Star Wars Planet Guide Screenshot](https://github.com/user-attachments/assets/9058ad81-be7f-4301-97c8-aa075ab6f492)
+<img width="1713" alt="image" src="https://github.com/user-attachments/assets/a4649355-4bfa-4398-afb0-3a0c5a46593a" />
+
 
 ## ⚙️ How It Works
 
