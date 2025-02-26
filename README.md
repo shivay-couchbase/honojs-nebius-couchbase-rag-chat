@@ -2,7 +2,7 @@
 
 # Star Wars Planet Guide: RAG with Nebius AI, Hono, Couchbase and Cloudflare Pages
 
-This project demonstrates a **Retrieval-Augmented Generation (RAG)** application using [Nebius AI](https://dub.sh/nebius) with **Hono, Couchbase, and Cloudflare**. The application serves as an **interactive guide to Star Wars planets**, leveraging vector search to retrieve relevant information and enhance AI responses.
+This project demonstrates a **Retrieval-Augmented Generation (RAG)** application using [Nebius AI Studio](https://dub.sh/nebius) with **Hono, Couchbase, and Cloudflare**. The application serves as an **interactive guide to Star Wars planets**, leveraging vector search to retrieve relevant information and enhance AI responses.
 
 ## 🚀 Features
 
