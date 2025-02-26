@@ -1,0 +1,62 @@
+{
+    "type": "fulltext-index",
+    "name": "starwars._default.vector-search-index",
+    "uuid": "6d2d7b468fcd038b",
+    "sourceType": "gocbcore",
+    "sourceName": "starwars",
+    "sourceUUID": "5c9fc46ad6149e5139d2e121c8ab3304",
+    "planParams": {
+      "maxPartitionsPerPIndex": 1024,
+      "indexPartitions": 1
+    },
+    "params": {
+      "doc_config": {
+        "docid_prefix_delim": "",
+        "docid_regexp": "",
+        "mode": "scope.collection.type_field",
+        "type_field": "type"
+      },
+      "mapping": {
+        "analysis": {},
+        "default_analyzer": "standard",
+        "default_datetime_parser": "dateTimeOptional",
+        "default_field": "_all",
+        "default_mapping": {
+          "dynamic": true,
+          "enabled": false
+        },
+        "default_type": "_default",
+        "docvalues_dynamic": false,
+        "index_dynamic": true,
+        "store_dynamic": false,
+        "type_field": "_type",
+        "types": {
+          "_default._default": {
+            "dynamic": true,
+            "enabled": true,
+            "properties": {
+              "embedding": {
+                "dynamic": false,
+                "enabled": true,
+                "fields": [
+                  {
+                    "dims": 1536,
+                    "index": true,
+                    "name": "embedding",
+                    "similarity": "dot_product",
+                    "type": "vector",
+                    "vector_index_optimized_for": "recall"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "store": {
+        "indexType": "scorch",
+        "segmentVersion": 16
+      }
+    },
+    "sourceParams": {}
+  }
